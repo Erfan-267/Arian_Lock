@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "bangers";
+    src: "../font/Bangers.ttf";
+}
+@font-face{
+    font-family: "Digi";
+    src: "../font/DIGI.otf";
+    src: "../font/DIGI.ttf";
+}
+
+.head-search-input{
+    unicode-bidi: embed;
+    direction: rtl;
+    outline: none;
+}
+.head-search-input::placeholder{
+    font-family: 'digi';
+}
+.hide{
+    display: none;
+}
