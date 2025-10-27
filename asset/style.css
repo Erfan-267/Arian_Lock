@@ -12,10 +12,32 @@
     unicode-bidi: embed;
     direction: rtl;
     outline: none;
+    /* flex-direction: row-reverse; */
 }
 .head-search-input::placeholder{
-    font-family: 'digi';
+    font-family: 'Digi';
 }
 .hide{
     display: none;
+}
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+    font-family: 'Digi' ;
+}
+.change-font-logo{
+    font-family: 'Bangers';
+}
+.change-font{
+    font-family: 'Digi';
+}
+.dir-text{
+    unicode-bidi: embed;
+    direction: rtl;
+    white-space: pre-wrap;
+    
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    
 }
