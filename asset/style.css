@@ -3,9 +3,10 @@
     src: "../font/Bangers.ttf";
 }
 @font-face{
-    font-family: "Digi";
-    src: "../font/DIGI.otf";
-    src: "../font/DIGI.ttf";
+    font-family: "ghaf";
+    src: "../font/ghaf.ttf";
+    /* src: "../font/ghaf.otf" format('otf'); */
+
 }
 
 .head-search-input{
@@ -13,9 +14,10 @@
     direction: rtl;
     outline: none;
     /* flex-direction: row-reverse; */
+    
 }
 .head-search-input::placeholder{
-    font-family: 'Digi';
+    font-family: 'ghaf';
 }
 .hide{
     display: none;
@@ -24,13 +26,14 @@
     /* padding: 0;
     margin: 0; */
     box-sizing: border-box;
-    font-family: 'Digi' ;
+    font-family: 'ghaf' ;
+    /* unicode-bidi: embed; */
 }
 .change-font-logo{
-    font-family: 'Bangers';
+    font-family: 'Bangers' !important;
 }
 .change-font{
-    font-family: 'Digi';
+    font-family: 'ghaf' !important;
 }
 .dir-text{
     unicode-bidi: embed;
