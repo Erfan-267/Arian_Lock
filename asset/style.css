@@ -14,6 +14,7 @@
     direction: rtl;
     outline: none;
     /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
     
 }
 .head-search-input::placeholder{
@@ -40,4 +41,11 @@
     direction: rtl;
     white-space: pre-wrap;
     
+}
+.brands-cont::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.slide-none{
+    display: none;
 }
