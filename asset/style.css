@@ -49,3 +49,6 @@
 .slide-none{
     display: none;
 }
+.dir-cont{
+    direction: rtl;
+}

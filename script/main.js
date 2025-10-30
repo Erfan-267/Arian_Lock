@@ -87,3 +87,32 @@ function controlSlide(n){
     slideIndex+=n;
     showSlide(slideIndex);
 }
+
+var slideNumber=1;
+veiwSlide(slideNumber);
+// let dot=document.querySelectorAll('.dot');
+// for(let i=0;i<dot.length;i++){
+//     dot[i].addEventListener("click",dotSlide(i))
+// }
+
+function veiwSlide(n){
+    let i;
+    const slides2=document.querySelectorAll('.slide2');
+    if(n > slides2.length){
+        slideNumber=1;
+    }
+    if(n < 1){
+        slideNumber=slides2.length;
+    }
+    for(let i=0;i<slides2.length;i++){
+        if(i != slideNumber-1){
+        
+            slides2[i].classList.add('slide-none');
+        }
+    }
+    slides2[slideNumber-1].classList.remove('slide-none');
+}
+function moveSlide(n){
+    slideNumber+=n;
+    veiwSlide(slideNumber);
+}
